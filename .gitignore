@@ -1,11 +1,17 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 .venv/
+.pytest_cache/
 
-# Env
+# Environment
 .env
 .env.*
+
+# Outputs
+*.log
+evals/eval_results/*.csv
 
 # OS
 .DS_Store
