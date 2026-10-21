@@ -8,6 +8,7 @@
 - Schema Valid %:
 - Task Success %:
 - Avg Latency (ms):
+- Avg Tokens (in/out):
 - Cost per Run (USD):
 - Top Failure Mode:
 - Fix Planned:

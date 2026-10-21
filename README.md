@@ -20,7 +20,7 @@ A structured 12-month program to become an AI Operator / AI Systems Builder focu
 1. Read [docs/12-month-ai-operator-plan.md](docs/12-month-ai-operator-plan.md)
 2. Follow [docs/90-day-sprint.md](docs/90-day-sprint.md)
 3. Execute Week 1 in [docs/week1.md](docs/week1.md)
-4. Run the first script in `scripts/llm_playground.py`
+4. Copy `.env.example` to `.env`, then run `scripts/llm_playground.py`
 
 ## Weekly Cadence (5-7 hours)
 
@@ -32,7 +32,8 @@ A structured 12-month program to become an AI Operator / AI Systems Builder focu
 ## Core Stack
 
 - Python, TypeScript, FastAPI
-- OpenAI API, Anthropic API
+- Anthropic API, OpenAI API
+- MCP servers and agent SDKs
 - Postgres/Supabase
 - AWS Lambda, API Gateway, EventBridge
 - Salesforce API, Slack API

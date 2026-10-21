@@ -3,11 +3,13 @@
 ## Core
 - Python 3.11+
 - FastAPI
-- Postgres/Supabase
+- Postgres/Supabase (pgvector for retrieval)
 
 ## AI
-- OpenAI API (structured outputs, embeddings)
-- Anthropic API (comparative model behavior)
+- Anthropic API (structured outputs, tool use, prompt caching)
+- OpenAI API (structured outputs, embeddings, comparison baseline)
+- Model Context Protocol (MCP) for exposing business tools to agents
+- Claude Agent SDK or SDK tool runners for agent loops
 
 ## Integrations
 - Salesforce API
@@ -21,3 +23,4 @@
 ## Observability
 - Structured logs (JSON)
 - Eval outputs in CSV
+- OpenTelemetry tracing (Month 9)
