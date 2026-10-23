@@ -1,6 +1,6 @@
 # Week 8: Working with APIs
 
-> 📍 **Part of:** [AI Ops Career Roadmap](../AIOps_Roadmap.md) — Phase 1: DevOps Foundations
+> 📍 **Part of:** [AI Ops Career Roadmap](AIOps_Roadmap.md) — Phase 1: DevOps Foundations
 
 **← Previous Week:** [File I/O, JSON/YAML, Regex](Week7_File_IO_JSON_YAML_Regex.md)
 
@@ -329,4 +329,4 @@ Data saved to: github_issues_20240115.json
 
 ---
 
-**[← Back to AI Ops Roadmap](../AIOps_Roadmap.md)**
+**[← Back to AI Ops Roadmap](AIOps_Roadmap.md)**

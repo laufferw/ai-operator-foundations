@@ -1,6 +1,6 @@
 # Week 11: Cloud & AWS Basics
 
-> 📍 **Part of:** [AI Ops Career Roadmap](../AIOps_Roadmap.md) — Phase 1: DevOps Foundations
+> 📍 **Part of:** [AI Ops Career Roadmap](AIOps_Roadmap.md) — Phase 1: DevOps Foundations
 
 **← Previous Week:** [Git & Version Control](Week10_Git_VersionControl.md)
 
@@ -214,7 +214,7 @@ git --version
 
 ```bash
 # From YOUR local machine (not the EC2)
-scp -i your-key.pem ~/lab/tools/python-scripts/disk_usage.py \
+scp -i your-key.pem ~/projects/ai-operator-foundations/aiops-track/tools/python-scripts/disk_usage.py \
     ec2-user@PUBLIC_IP:~/
 
 # Or use git clone if you've pushed to GitHub
@@ -281,4 +281,4 @@ python3 disk_usage.py
 
 ---
 
-**[← Back to AI Ops Roadmap](../AIOps_Roadmap.md)**
+**[← Back to AI Ops Roadmap](AIOps_Roadmap.md)**

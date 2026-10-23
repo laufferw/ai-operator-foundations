@@ -478,6 +478,6 @@ MLOps Basics
 
 ### Lab Environment
 - **Server**: Ubuntu 24.04 (web-server) - 31GB RAM
-- **Location**: ~/lab/
-- **Toolkit**: ~/lab/tools/sysadmin-toolkit/ (Git initialized)
-- **Notes**: ~/lab/notes/learning-journey.md
+- **Location**: ~/projects/ai-operator-foundations/aiops-track/ (moved from ~/lab/ in Oct 2026)
+- **Toolkit**: ~/projects/ai-operator-foundations/aiops-track/tools/sysadmin-toolkit/
+- **Notes**: ~/projects/ai-operator-foundations/aiops-track/notes/

@@ -13,7 +13,7 @@ BACKUP_DIR="$HOME/lab/backup/$TIMESTAMP"
 mkdir -p "$BACKUP_DIR"
 
 # Copy the sysadmin-toolkit to backup
-cp -r ~/lab/tools/sysadmin-toolkit/* "$BACKUP_DIR/"
+cp -r "$(dirname "$0")"/* "$BACKUP_DIR/"
 
 echo ":checkmark: Backup complete!"
 echo ":folder: Files saved to: $BACKUP_DIR/"

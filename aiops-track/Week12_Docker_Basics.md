@@ -1,6 +1,6 @@
 # Week 12: Docker Basics
 
-> 📍 **Part of:** [AI Ops Career Roadmap](../AIOps_Roadmap.md) — Phase 1: DevOps Foundations
+> 📍 **Part of:** [AI Ops Career Roadmap](AIOps_Roadmap.md) — Phase 1: DevOps Foundations
 
 **← Previous Week:** [Cloud & AWS Basics](Week11_Cloud_AWS_Basics.md)
 
@@ -264,7 +264,7 @@ docker-compose up -d --scale app=3
 #### 1. Create a Dockerfile
 
 ```bash
-cd ~/lab/tools/python-scripts
+cd ~/projects/ai-operator-foundations/aiops-track/tools/python-scripts
 
 # Create Dockerfile for disk_usage.py
 cat > Dockerfile << 'EOF'
@@ -390,4 +390,4 @@ You've completed DevOps Foundations!
 
 ---
 
-**[← Back to AI Ops Roadmap](../AIOps_Roadmap.md)**
+**[← Back to AI Ops Roadmap](AIOps_Roadmap.md)**

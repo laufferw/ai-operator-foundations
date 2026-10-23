@@ -1,6 +1,6 @@
 # Week 10: Git & Version Control
 
-> 📍 **Part of:** [AI Ops Career Roadmap](../AIOps_Roadmap.md) — Phase 1: DevOps Foundations
+> 📍 **Part of:** [AI Ops Career Roadmap](AIOps_Roadmap.md) — Phase 1: DevOps Foundations
 
 **← Previous Week:** [Virtual Environments, Modules](Week9_VirtualEnvs_Modules_ErrorHandling.md)
 
@@ -303,8 +303,12 @@ git push -u origin feature/ai-logging
 
 #### Step 1: Initialize and Configure
 
+> The toolkit now lives inside the `ai-operator-foundations` repo, so copy it out
+> to practice starting a repo from scratch:
+> `cp -r ~/projects/ai-operator-foundations/aiops-track/tools/sysadmin-toolkit ~/sysadmin-toolkit`
+
 ```bash
-cd ~/lab/tools/sysadmin-toolkit
+cd ~/sysadmin-toolkit
 
 # Configure Git (if not already)
 git config user.name "Your Name"
@@ -421,4 +425,4 @@ git push -u origin main
 
 ---
 
-**[← Back to AI Ops Roadmap](../AIOps_Roadmap.md)**
+**[← Back to AI Ops Roadmap](AIOps_Roadmap.md)**

@@ -1,6 +1,6 @@
 # Week 7: File I/O, JSON, YAML, and Regular Expressions
 
-> 📍 **Part of:** [AI Ops Career Roadmap](../AIOps_Roadmap.md) — Phase 1: DevOps Foundations
+> 📍 **Part of:** [AI Ops Career Roadmap](AIOps_Roadmap.md) — Phase 1: DevOps Foundations
 
 ## 📋 Learning Objectives
 
@@ -224,8 +224,8 @@ This simulates real DevOps work - reading application configs and extracting key
 
 ### Files Created
 
-1. **Config file:** `~/lab/tools/python-scripts/app_config.yaml`
-2. **Starter template:** `~/lab/tools/python-scripts/yaml_parser.py`
+1. **Config file:** `~/projects/ai-operator-foundations/aiops-track/tools/python-scripts/app_config.yaml`
+2. **Starter template:** `~/projects/ai-operator-foundations/aiops-track/tools/python-scripts/yaml_parser.py`
 
 ### The Config File (app_config.yaml)
 
@@ -425,4 +425,4 @@ APPLICATION CONFIGURATION
 
 ---
 
-**[← Back to AI Ops Roadmap](../AIOps_Roadmap.md)**
+**[← Back to AI Ops Roadmap](AIOps_Roadmap.md)**

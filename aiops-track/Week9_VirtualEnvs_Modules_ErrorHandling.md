@@ -1,6 +1,6 @@
 # Week 9: Virtual Environments, Modules & Error Handling
 
-> 📍 **Part of:** [AI Ops Career Roadmap](../AIOps_Roadmap.md) — Phase 1: DevOps Foundations
+> 📍 **Part of:** [AI Ops Career Roadmap](AIOps_Roadmap.md) — Phase 1: DevOps Foundations
 
 **← Previous Week:** [APIs & HTTP](Week8_APIs_HTTP.md)
 
@@ -83,7 +83,7 @@ deactivate
 
 ```bash
 # Create a project-specific venv
-cd ~/lab/tools/python-scripts/
+cd ~/projects/ai-operator-foundations/aiops-track/tools/python-scripts/
 python3 -m venv .venv
 
 # Activate
@@ -107,7 +107,7 @@ A Python file (`.py`) that can be imported into other scripts. This lets you reu
 ### Creating a Module
 
 ```python
-# ~/lab/tools/python-scripts/mymodule.py
+# ~/projects/ai-operator-foundations/aiops-track/tools/python-scripts/mymodule.py
 
 def greet(name):
     return f"Hello, {name}!"
@@ -137,7 +137,7 @@ print(f"Version: {VERSION}")
 ### Organizing Modules
 
 ```
-~/lab/tools/python-scripts/
+~/projects/ai-operator-foundations/aiops-track/tools/python-scripts/
 ├── mymodule.py
 ├── another_module.py
 └── scripts/
@@ -249,7 +249,7 @@ This simulates real AI Ops work - monitoring services and taking automated actio
 ### Structure
 
 ```
-~/lab/tools/python-scripts/
+~/projects/ai-operator-foundations/aiops-track/tools/python-scripts/
 ├── service_checker/
 │   ├── __init__.py
 │   ├── checker.py     # Module with checking functions
@@ -400,4 +400,4 @@ def get_service_status(service_name):
 
 ---
 
-**[← Back to AI Ops Roadmap](../AIOps_Roadmap.md)**
+**[← Back to AI Ops Roadmap](AIOps_Roadmap.md)**
