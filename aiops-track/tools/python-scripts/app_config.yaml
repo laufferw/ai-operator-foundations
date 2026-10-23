@@ -1,0 +1,36 @@
+# Application Configuration File
+# This simulates a real config you'd see in production
+
+application:
+  name: ai-ops-dashboard
+  version: 2.1.0
+  environment: production
+  
+database:
+  host: db-prod-01.internal
+  port: 5432
+  name: aiops_metrics
+  max_connections: 100
+  timeout: 30
+
+monitoring:
+  enabled: true
+  interval_seconds: 60
+  alerting:
+    email: ops-team@company.com
+    slack_webhook: https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX
+    pagerduty_key: a1b2c3d4e5f6
+
+metrics:
+  retention_days: 90
+  aggregation_interval: 5
+  exporters:
+    - prometheus
+    - datadog
+    - cloudwatch
+
+features:
+  anomaly_detection: true
+  predictive_scaling: false
+  auto_remediation: true
+  log_analysis: true

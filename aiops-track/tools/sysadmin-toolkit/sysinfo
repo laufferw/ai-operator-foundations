@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "=== My Computer ===" 
+whoami
+free -h | grep Mem
+df -h / | tail -1
+cat /proc/loadavg | awk '{print "Busy: " $1}'

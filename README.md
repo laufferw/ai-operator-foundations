@@ -14,6 +14,7 @@ A structured 12-month program to become an AI Operator / AI Systems Builder focu
 - `scripts/` executable learning/build scripts
 - `evals/` test cases and evaluation outputs
 - `apps/` project implementations by phase
+- `aiops-track/` AI Ops career roadmap, weekly workbooks (Weeks 7-12), notes, and practice scripts
 
 ## Start Here
 

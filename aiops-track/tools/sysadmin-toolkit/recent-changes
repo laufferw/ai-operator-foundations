@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Files modified in last 24 hours:"
+find . -mtime "-$1" -ls
